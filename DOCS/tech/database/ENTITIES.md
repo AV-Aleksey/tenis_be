@@ -32,8 +32,6 @@
 - `id`: int, pk
 - `code`: text, not null, unique
 - `title`: text, not null
-- `created_at`: timestamptz, not null
-- `updated_at`: timestamptz, not null
 Seed values:
 - `1`, `admin`, `Администратор`
 - `2`, `moderator`, `Модератор`
